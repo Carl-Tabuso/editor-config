@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoFileName",
+		"Composer",
+		"DotENV",
+		"Emmet",
+		"Git blame",
+		"GitGutter",
+		"Github Color Theme",
+		"GitHub Theme",
+		"Laravel Blade",
+		"Laravel Blade AutoComplete",
+		"LSP",
+		"LSP-eslint",
+		"LSP-intelephense",
+		"LSP-tailwindcss",
+		"LSP-vue",
+		"MarkdownPreview",
+		"Material Theme",
+		"Package Control",
+		"PHP Companion",
+		"SyncedSideBar",
+		"Terminus",
+		"Vue",
+	],
+}
