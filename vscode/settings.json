@@ -1,23 +1,91 @@
 {
-    "php.inlayHints.parameters.enabled": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "git.confirmSync": false,
-    "php.inlayHints.types.lambdaParameter": false,
-    "php.inlayHints.types.return": "named",
-    "window.zoomPerWindow": false,
-    "workbench.colorTheme": "Aura Dark (Soft Text)",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.startupEditor": "none",
-    "claudeCode.preferredLocation": "panel",
-    "editor.fontLigatures": false,
-    "editor.fontFamily": "'Jetbrains Mono Semibold'",
-    "editor.fontSize": 12,
-    "editor.lineHeight": 26,
-    "workbench.settings.applyToAllProfiles": [
-        "editor.fontFamily"
-    ],
-    "editor.minimap.enabled": false,
-    "workbench.sideBar.location": "right",
-    "chat.disableAIFeatures": true,
-    "window.zoomLevel": 1
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  // "editor.fontFamily": "Fira Code SemiBold",
+  "editor.fontFamily": "JetBrains Mono Semibold",
+  // "editor.fontLigatures": true,
+  "editor.lineHeight": 2.7,
+
+  "window.zoomLevel": -0.5,
+
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.semanticHighlighting.enabled": true,
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "scope": [
+  //         "support.other.namespace.php",
+  //         "support.class.php",
+  //         "keyword.other.type.php",
+  //         "keyword.operator.nullable-type.php",
+  //         "support.attribute.php"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#6CB2C7"
+  //       }
+  //     }
+  //   ]
+  // },
+
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[blade]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[php]": {
+    "editor.defaultFormatter": "laravel.vscode-laravel"
+  },
+
+  "php.inlayHints.parameters.enabled": false,
+  "php.inlayHints.types.return": "named",
+
+  "editor.fontVariations": false,
+  "editor.fontWeight": "normal",
+  "Laravel.pint.runOnSave": true,
+  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "workbench.activityBar.autoHide": true,
+  "workbench.preferredDarkColorTheme": "GitHub Dark Palenight",
+  "workbench.browser.enableChatTools": false,
+  "workbench.preferredHighContrastColorTheme": "GitHub Dark Palenight",
+  "workbench.preferredLightColorTheme": "GitHub Dark Palenight",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    },
+    "Command Prompt": {
+      "path": "C:\\WINDOWS\\System32\\cmd.exe",
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.confirmSync": false
 }
