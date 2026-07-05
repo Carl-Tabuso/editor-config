@@ -1,0 +1,23 @@
+{
+    "php.inlayHints.parameters.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "php.inlayHints.types.lambdaParameter": false,
+    "php.inlayHints.types.return": "named",
+    "window.zoomPerWindow": false,
+    "workbench.colorTheme": "Aura Dark (Soft Text)",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "claudeCode.preferredLocation": "panel",
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "'Jetbrains Mono Semibold'",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 26,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "chat.disableAIFeatures": true,
+    "window.zoomLevel": 1
+}
